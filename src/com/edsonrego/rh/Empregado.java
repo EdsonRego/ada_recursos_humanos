@@ -38,18 +38,18 @@ public class Empregado {
     }
 
     public void trabalhar() {
-        System.out.printf("%s está trabalhando... ", this.nome);
+        System.out.printf("%s está trabalhando... \n", this.nome);
     }
     public void baterPonto() {
-        System.out.printf("%s bateu o ponto", this.nome);
+        System.out.printf("%s bateu o ponto \n", this.nome);
     }
 
     @Override
     public String toString() {
         return "Empregado{" +
-                "nome='" + nome + '\'' +
-                ", matricula=" + matricula +
-                ", salario=" + salario +
+                "nome =' " + nome + '\'' +
+                ", matricula = " + matricula +
+                ", salario = " + salario +
                 '}';
     }
 
